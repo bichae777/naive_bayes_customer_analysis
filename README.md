@@ -59,3 +59,28 @@ pip install -r requirements.txt
 
 # Jupyter 노트북 실행
 jupyter notebook
+
+
+📊 데이터 정보
+
+데이터 구조
+- **원본 데이터**: Dunnhumby "The Complete Journey" 데이터셋
+- **크기**: ~1.5GB (GitHub 용량 제한으로 로컬에서만 사용)
+- **기간**: 2021-2023 (711일간)
+- **고객 수**: 약 2,500명
+- **거래 건수**: 259만건
+
+로컬 실행을 위한 데이터 준비
+```bash
+1. Dunnhumby 데이터셋 다운로드
+https://www.dunnhumby.com/source-files/
+
+2. data/raw/ 폴더에 CSV 파일들 배치
+- transaction_data.csv
+- product.csv  
+- hh_demographic.csv
+- campaign_table.csv
+- coupon_redempt.csv
+
+3. 노트북 순서대로 실행
+jupyter notebook notebooks/01_data_exploration.ipynb

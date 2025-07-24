@@ -72,7 +72,7 @@ jupyter notebook
 
 로컬 실행을 위한 데이터 준비
 1. Dunnhumby 데이터셋 다운로드
-[https://www.dunnhumby.com/source-files/](https://www.kaggle.com/code/marian447/dunnhumby-customer-dna-profiles-wtp/input)
+https://www.kaggle.com/code/marian447/dunnhumby-customer-dna-profiles-wtp/notebook
 
 2. data/raw/ 폴더에 CSV 파일들 배치
 - transaction_data.csv

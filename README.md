@@ -1,7 +1,6 @@
 # Naive Bayes Customer Data Quality Analysis
-
-1. 프로젝트 구조
 ```bash
+1. 프로젝트 구조
 naive_bayes_customer_analysis/
 ├── 📊 data/
 │   ├── raw/                    # 원본 데이터 (던험비 데이터셋)
@@ -51,29 +50,27 @@ naive_bayes_customer_analysis/
 
 
 4. 환경 설정
-```bash
-# 레포지토리 클론
+레포지토리 클론
 git clone https://github.com/bichae777/naive_bayes_customer_analysis.git
 cd naive_bayes_customer_analysis
 
-# 필요한 패키지 설치
+필요한 패키지 설치
 pip install -r requirements.txt
 
-# Jupyter 노트북 실행
+Jupyter 노트북 실행
 jupyter notebook
 
 
 📊 데이터 정보
 
 데이터 구조
-- **원본 데이터**: Dunnhumby "The Complete Journey" 데이터셋
-- **크기**: ~1.5GB (GitHub 용량 제한으로 로컬에서만 사용)
-- **기간**: 2021-2023 (711일간)
-- **고객 수**: 약 2,500명
-- **거래 건수**: 259만건
+- 원본 데이터: Dunnhumby "The Complete Journey" 데이터셋
+- 크기: ~1.5GB (GitHub 용량 제한으로 로컬에서만 사용)
+- 기간: 2021-2023 (711일간)
+- 고객 수: 약 2,500명
+- 거래 건수: 259만건
 
 로컬 실행을 위한 데이터 준비
-```bash
 1. Dunnhumby 데이터셋 다운로드
 https://www.dunnhumby.com/source-files/
 

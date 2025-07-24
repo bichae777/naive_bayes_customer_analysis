@@ -1,5 +1,7 @@
 # Naive Bayes Customer Data Quality Analysis
+
 1. 프로젝트 구조
+```bash
 naive_bayes_customer_analysis/
 ├── 📊 data/
 │   ├── raw/                    # 원본 데이터 (던험비 데이터셋)
@@ -22,7 +24,7 @@ naive_bayes_customer_analysis/
 
 
 
-2. 분석 순서
+3. 분석 순서
 01_data_exploration.ipynb: 데이터 이해하기
 02-03: 전처리 및 피처 엔지니어링
 04: 나이브 베이즈 모델링
@@ -30,7 +32,7 @@ naive_bayes_customer_analysis/
 
 
 
-3. 기술 스택
+4. 기술 스택
 데이터 분석
 - Python 3.8+: 메인 프로그래밍 언어
 - Pandas: 데이터 조작 및 분석
